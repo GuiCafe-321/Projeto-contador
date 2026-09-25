@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Concerto de UNDERTALE</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <script src="/js/script.js"></script>
 </head>
 
 <body>
     <div class="container-c">
         <div class="title-c">
+            <br>
             <h1>Concerto de UNDERTALE em 3 pianos</h1>
             <h2>Página de Contato</h2>
             <br>
@@ -22,28 +23,33 @@
         </div>
         <br> <br>
         <div class="form">
-            <form class="register-form" id="registerForm">
+            <form id="registerForm">
 
                 <label for="nome">Nome: </label>
-                <input type="text" id="nome" required>
+                <input type="text" id="nome" placeholder="Digite seu nome" required>
                 <br><br>
                 <label for="email">E-mail: </label>
-                <input type="text" id="email" required>
+                <input type="text" id="email" placeholder="Digite seu email" required>
                 <br><br>
                 <label for="assunto">Assunto: </label>
-                <input type="text" id="assunto" required>
+                <input type="text" id="assunto" placeholder="Digite o assunto" required>
                 <br><br>
                 <label for="mensagem">Mensagem: </label>
-                <input type="text" id="mensagem" required>
-
-            </form>
-            <br> <br>
-        </div>
+                <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
+            
+            </div> <br>
+            <div class="title-c">
+                <button class="button" type="submit">Enviar</button>
+            </div>
+            </form> 
+            <br> <br> <hr> <br> <br>
+        
         <div class="title-c">
-            <a href="https://x.com/undertale_sc24" class="botao"><img src="/img/X.svg" alt="X" class="x"></a>
+            <a href="https://x.com/undertale_sc24" class="botao"><img src="img/X.svg" alt="X" class="x"></a>
         </div>
 
     </div>
+    <br> <br>
 </body>
 
 </html>
